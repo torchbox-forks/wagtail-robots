@@ -1,7 +1,7 @@
 try:
     from distutils.version import LooseVersion
 except ImportError:
-    from setuptools.distutils.version import LooseVersion
+    from setuptools._distutils.version import LooseVersion
 
 from django.conf import settings
 
