@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Drop testing support for Wagtail 6.0 & 6.1
+- Add testing support for Wagtail 6.3 & 6.4
+- Add testing support for Django 5.1
 - Drop support for Python 3.8
 - Add Wagtail 6 to test matrices
 - Drop support for Django < 4.2

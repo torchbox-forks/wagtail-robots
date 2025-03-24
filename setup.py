@@ -21,7 +21,7 @@ setup(
     },
     install_requires=[
         'wagtail>=5.2',
-        'wagtail-modeladmin>=2.0',
+        'wagtail-modeladmin>=2.1',
         'six>=1.17.0',
     ],
     classifiers=[
@@ -39,9 +39,11 @@ setup(
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'Framework :: Django',
         'Framework :: Django :: 4.2',
         'Framework :: Django :: 5.0',
+        'Framework :: Django :: 5.1',
         'Framework :: Wagtail :: 5',
         'Framework :: Wagtail :: 6',
     ]
