@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Drop support for Python 3.8
 - Add Wagtail 6 to test matrices
 - Drop support for Django < 4.2
 

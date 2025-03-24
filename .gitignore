@@ -10,3 +10,4 @@ __pycache__
 
 /test_robots.db
 venv
+.venv
