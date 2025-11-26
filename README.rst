@@ -2,45 +2,6 @@
 Wagtail Robots
 ==============
 
-========
-CAUTION!
-========
-
-This is a fork of the original wagtail-robots package. The original package maintainer hasn't accepted PRs for a long time.
-
-Keep the master branch up to date with the maintainers' master branch. If that has work not on our master branch, merge it to our master branch if necessary.
-
-The current latest TAG: https://github.com/torchbox-forks/wagtail-robots/releases/tag/1.2.2%2Btbx
-
-This tag supports Wagtail versions less than 5.2. If you are using Wagtail 5.2 or above, you should use the latest tag shown in releases.
-
-Use the current latest TAG in your project requirements.
-
-For poetry users:
-
-.. code-block:: toml
-
-    [tool.poetry.dependencies]
-    wagtail-robots = { git = "https://github.com/torchbox-forks/wagtail-robots", tag="1.2.2+tbx" }
-
-
-Development
-===========
-
-Developing new work/fixes/upgrades should be based on the latest `master` branch and merged back to the `master` branch.
-
-If you consider any new work needs a new release then create a new branch from the `master` branch once your work is merged to the `master` branch.
-Name your new branch using the convention 'stable/[version]' where version is the next version number you want to use. (any branches using the stable prefix are automatically protected)
-We treat each stable branch as a snapshot of the codebase at the time of the release. We don't merge any further work to the stable branch.
-
-Then create the new release and tag it with the new version number and add a suffix of '+tbx' to the version number.
-
-We don't publish new releases to PyPI. We only use the package from the git repository.
-
-===========
-END CAUTION
-===========
-
 This is a basic Django application for Wagtail to manage robots.txt files
 following the `robots exclusion protocol`_, complementing the Django_
 `Sitemap contrib app`_.
