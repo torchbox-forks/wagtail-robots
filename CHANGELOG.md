@@ -2,8 +2,13 @@
 
 ## Unreleased
 
+- Add testing support for Python 3.14 and Wagtail 7.2
 - Add Wagtail 6 to test matrices
 - Drop support for Django < 4.2
+
+## Other tags
+
+- See [tags on this repository](https://github.com/torchbox-forks/wagtail-robots/tags)
 
 ## 1.1.0+tbx (2024-03-05)
 
