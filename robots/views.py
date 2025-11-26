@@ -1,17 +1,13 @@
-import django
 from django.db.models import Q
 from django.views.decorators.cache import cache_page
 from django.views.generic import ListView
+from django.urls import NoReverseMatch, reverse
+
+from wagtail.contrib.sitemaps.views import sitemap
+from wagtail.models import Site
 
 from robots import settings
 from robots.models import Rule
-
-
-from django.urls import NoReverseMatch, reverse
-
-from wagtail.models import Site
-
-from wagtail.contrib.sitemaps.views import sitemap
 
 
 class RuleList(ListView):

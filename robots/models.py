@@ -7,11 +7,10 @@ from django.utils.translation import gettext_lazy as _
 from modelcluster.models import ClusterableModel
 from modelcluster.fields import ParentalKey
 
-from robots.panels import WrappedInlinepanel
-
-
-from wagtail.models import Site
 from wagtail.admin.panels import FieldPanel
+from wagtail.models import Site
+
+from robots.panels import WrappedInlinepanel
 
 
 class BaseUrl(models.Model):
